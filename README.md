@@ -3,7 +3,7 @@
 This project analyzes EEG signals from `.edf` files to calculate the power of Alpha (8-13 Hz) and Beta (13-30 Hz) bands for each of the 64 electrodes. Results are automatically saved to a MySQL database for further analysis.
 
 ## Requirements
-
+-Download S001R01.edf from https://physionet.org/content/eegmmidb/1.0.0/S001/S001R01.edf
 - **Python 3.10+**
 - **MySQL Server** (e.g., XAMPP, WAMP, or standalone installation)
 - Libraries listed in `requirements.txt`
