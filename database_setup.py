@@ -2,7 +2,6 @@ import mysql.connector
 from config import DB_CONFIG
 
 def setup_database():
-    # Connessione senza specificare il database per crearlo
     config_no_db = DB_CONFIG.copy()
     db_name = config_no_db.pop("database")
     
